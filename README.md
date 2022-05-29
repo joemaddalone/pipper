@@ -2,7 +2,7 @@
 
 A program to place pips pleasingly.
 
-![](image/pips.png)
+![](image/pipper.png)
 
 ## Installation
 
