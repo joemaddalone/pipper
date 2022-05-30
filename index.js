@@ -50,7 +50,7 @@ export default function pipper (pips, pipSize, cx, cy) {
     case 8:
       return [tl, tmOffset, tr, bl, bmOffset, br, cl, cr]
     case 9:
-      return [tl, tm, tr, bl, bm, br, cl, cm, cr]
+      return [...fourTallLeft, cm, ...fourTallRight]
     case 10:
       return [...fourTallLeft, ...fourTallRight, tmOffset, bmOffset]
     case 11:
